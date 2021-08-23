@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Super Heroes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+<form >
+    <h1>Exercício SuperHeroes Json</h1>
+    <img class="imgSuperHeroes" src="./img/superheroes.jpeg" id="imgSuperHeroes">
+    <div class="split left">
+        <div>
+            <button id="btnFile" onclick="cleanTxtArea()"> 
+                Limpar</button>
+          </div>
+        <div>
+            <input  id="btnList" class="button" type="button" onclick="alterEgoList()" 
+            value="(List) Criar lista - Alter Ego">
+        </div> 
+        <div>
+            <input id="btnReduce" class="button" type="button" onclick="firstAppearenceList()"
+            value="(Reduce) Retornar total caracteres">
+        </div> 
+        <div>
+            <input id="btnFilter" class="button" type="button" onclick="publisherList()" 
+            value="(Filter) Filtrar personagens">
+        </div>
+        <div>
+            <input id="btnSort" class="button" type="button" onclick="sortedList()" 
+            value="(Sort) Organizar o vetor">
+        </div>   
+    </div>
+    <div class="split right">
+        <textarea id="txtAreaList" rows="50" cols="75" wrap="hard"> </textarea>
+    </div>
+   
+</form>
+</body>
+<script src="/js/index.js"></script>
+
+</html>
