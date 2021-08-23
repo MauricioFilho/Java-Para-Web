@@ -1,0 +1,74 @@
+h1 {
+    color: black;
+    font-weight: 100;
+    text-align: center;
+}
+
+#imgSuperHeroes{
+    height: 300px;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+input{
+    font-weight: bold;
+    line-height: 80%;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Comic Sans', sans-serif;
+    background-color:rgb(175, 175, 175)
+}
+
+.button{
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+div{
+    padding-top: 3em;
+    margin: 4px 2px;
+}
+
+.split {
+    height: 100%;
+    width: 75%;
+    position: fixed;
+    z-index: .5;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+  }
+  
+  .right {
+    right: 0;
+  }
+
+  textarea{
+    overflow-y: scroll;
+    height: 55%;
+    resize: none;
+  }
+
+  #btnFile{
+    display:block;
+    width:120px;
+    height:35px;
+  }
+
